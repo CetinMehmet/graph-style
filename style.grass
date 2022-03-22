@@ -15,64 +15,44 @@ relationship {
   text-color-internal: #FFFFFF;
   caption: "<type>";
 }
-node.Movie {
-  color: #C990C0;
-  border-color: #b261a5;
-  text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
-  caption: "{title}";
-}
-node.Person {
-  color: #F79767;
-  border-color: #f36924;
-  text-color-internal: #FFFFFF;
-  defaultCaption: "<id>";
-  caption: "{name}";
-}
-node.Greeting {
-  color: #57C7E3;
-  border-color: #23b3d7;
-  text-color-internal: #2A2C34;
-  caption: "{message}";
-}
 node.NODE {
   color: #F79767;
-  border-color: #f36924;
+  border-color: #F79767;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
 relationship.EDGE {
   color: #57C7E3;
-  border-color: #23b3d7;
+  border-color: #57C7E3;
   text-color-internal: #2A2C34;
 }
 node.Apply {
   color: #8DCC93;
-  border-color: #5db665;
+  border-color: #8DCC93;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
 node.Constant {
   color: #ECB5C9;
-  border-color: #da7298;
+  border-color: #ECB5C9;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
 node.ArraySSA {
   color: #4C8EDA;
-  border-color: #2870c2;
+  border-color: #4C8EDA;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
 node.GetPropertyValue {
   color: #FFC454;
-  border-color: #d7a013;
+  border-color: #FFC454;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
 node.GetPage {
   color: #DA7194;
-  border-color: #cc3c6c;
+  border-color: #CC3C6C;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
@@ -83,21 +63,21 @@ node.IfThenElse {
   caption: "{name}";
 }
 node.ConstantArray {
-    color: #e6194b;
+    color: #E6194B;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.PutPropertyValue {
-    color: #3cb44b;
+    color: #3CB44B;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.Append {
-    color: #ffe119;
+    color: #FFE119;
     border-color: #447666;
-    text-color-internal: #FFFFFF;
+    text-color-internal: #000000;
     caption: "{name}";
 }
 node.MapAction {
@@ -107,33 +87,33 @@ node.MapAction {
     caption: "{name}";
 }
 node.SequenceSSA {
-    color: #f58231;
+    color: #F58231;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.Size {
-    color: #911eb4;
+    color: #911EB4;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.ForEachSSA {
-    color: #f032e6;
+    color: #F032E6;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.Reorder {
-    color: #bcf60c;
+    color: #BCF60C;
     border-color: #447666;
-    text-color-internal: #FFFFFF;
+    text-color-internal: #000000;
     caption: "{name}";
 }
 node.Rank {
-    color: #fabebe;
+    color: #FABEBE;
     border-color: #447666;
-    text-color-internal: #FFFFFF;
+    text-color-internal: #000000;
     caption: "{name}";
 }
 node.GetPageCollection {
@@ -143,13 +123,13 @@ node.GetPageCollection {
     caption: "{name}";
 }
 node.GetPageVar {
-    color: #e6beff;
+    color: #E6BEFF;
     border-color: #447666;
-    text-color-internal: #FFFFFF;
+    text-color-internal: #000000;
     caption: "{name}";
 }
 node.GetSSA {
-    color: #9a6324;
+    color: #9A6324;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
