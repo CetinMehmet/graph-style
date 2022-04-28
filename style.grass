@@ -194,13 +194,13 @@ node.InputSSA {
 node.IterateWhile {
     color: #3c1b2c;
     border-color: #447666;
-    text-color-internal: #000000;
+    text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.Join {
     color: #bed9d2;
     border-color: #447666;
-    text-color-internal: #FFFFFF;
+    text-color-internal: #000000;
     caption: "{name}";
 }
 node.MapAction {
@@ -254,7 +254,7 @@ node.SequenceSSA {
 node.SimpleReduce {
     color: #203842;
     border-color: #447666;
-    text-color-internal: #000000;
+    text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.Size {
