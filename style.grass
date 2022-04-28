@@ -15,15 +15,6 @@ relationship {
   text-color-internal: #FFFFFF;
   caption: "<type>";
 }
-relationship.ERROR {
-  color: #FF0000;
-  shaft-width: 1px;
-  font-size: 8px;
-  padding: 3px;
-  text-color-external: #000000;
-  text-color-internal: #FFFFFF;
-  caption: "<type>";
-}
 node.NODE {
   color: #F79767;
   border-color: #F79767;
@@ -35,123 +26,264 @@ relationship.EDGE {
   border-color: #57C7E3;
   text-color-internal: #2A2C34;
 }
+relationship.ERROR {
+  color: #FF0000;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
 node.Apply {
-  color: #8DCC93;
+  color: #3e331f;
   border-color: #8DCC93;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
-node.Constant {
-  color: #ECB5C9;
+node.Append {
+  color: #cb48d9;
   border-color: #ECB5C9;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
 node.ArraySSA {
-  color: #4C8EDA;
+  color: #78dc4a;
   border-color: #4C8EDA;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
-node.GetPropertyValue {
-  color: #FFC454;
+node.CallSsaProgram {
+  color: #7336c9;
   border-color: #FFC454;
   text-color-internal: #2A2C34;
   caption: "{name}";
 }
-node.GetPage {
-  color: #DA7194;
+node.Combine {
+  color: #d1df43;
   border-color: #CC3C6C;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
-node.IfThenElse {
-  color: #569480;
+node.ComponentResultsSSA {
+  color: #6664de;
   border-color: #447666;
   text-color-internal: #FFFFFF;
   caption: "{name}";
 }
+node.ConditionalPutPropertyValue {
+    color: #6da536;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
 node.ConstantArray {
-    color: #E6194B;
+    color: #51207e;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
-node.PutPropertyValue {
-    color: #3CB44B;
-    border-color: #447666;
-    text-color-internal: #FFFFFF;
-    caption: "{name}";
-}
-node.Append {
-    color: #FFE119;
+node.Constant {
+    color: #63d986;
     border-color: #447666;
     text-color-internal: #000000;
     caption: "{name}";
 }
-node.MapAction {
-    color: #4363d8;
+node.Filter {
+    color: #c840a5;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
-node.SequenceSSA {
-    color: #F58231;
+node.FirstSSA {
+    color: #3c752f;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
-node.Size {
-    color: #911EB4;
+node.FlatMap {
+    color: #c279da;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.ForEachSSA {
-    color: #F032E6;
+    color: #d5ac39;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
-node.Reorder {
-    color: #BCF60C;
+node.Gen {
+    color: #464fa1;
     border-color: #447666;
     text-color-internal: #000000;
     caption: "{name}";
 }
-node.Rank {
-    color: #FABEBE;
+node.GetFramesSSA {
+    color: #cddd83;
     border-color: #447666;
     text-color-internal: #000000;
+    caption: "{name}";
+}
+node.GetPage {
+    color: #332251;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.GetPageCollection {
-    color: #008080;
-    border-color: #447666;
-    text-color-internal: #FFFFFF;
-    caption: "{name}";
-}
-node.GetPageVar {
-    color: #E6BEFF;
+    color: #5fe1cb;
     border-color: #447666;
     text-color-internal: #000000;
     caption: "{name}";
 }
-node.GetSSA {
-    color: #9A6324;
+node.GetPageVar {
+    color: #e14733;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
+node.GetPropertyValue {
+    color: #73bbda;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.GetSSA {
+    color: #cf772f;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Group {
+    color: #7292df;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.GroupReduce {
+    color: #898437;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Grow {
+    color: #dc3c75;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.IfThenElse {
+    color: #73a76c;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.IndexOf {
+    color: #8a285d;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.InputSSA {
+    color: #b1e1b2;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.IterateWhile {
+    color: #3c1b2c;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
 node.Join {
-    color: #800000;
+    color: #bed9d2;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.MapAction {
+    color: #a03a2c;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.MergeIf {
+    color: #509d8a;
     border-color: #447666;
     text-color-internal: #FFFFFF;
     caption: "{name}";
 }
 node.NowSSA {
-    color: #808000;
+    color: #d5718c;
     border-color: #447666;
     text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Prev {
+    color: #344f29;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.PutPropertyValue {
+    color: #d49fd8;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.Rank {
+    color: #7c5524;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Reorder {
+    color: #855894;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.SequenceSSA {
+    color: #d8bc88;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.SimpleReduce {
+    color: #203842;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.Size {
+    color: #e69175;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Slice {
+    color: #546f9c;
+    border-color: #447666;
+    text-color-internal: #000000;
+    caption: "{name}";
+}
+node.Switch {
+    color: #6b292a;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.Uniform {
+    color: #cdb0c0;
+    border-color: #447666;
+    text-color-internal: #FFFFFF;
+    caption: "{name}";
+}
+node.ENTRYPOINT {
+    color: #FFFFFF;
+    border-color: #447666;
+    text-color-internal: #000000;
     caption: "{name}";
 }
